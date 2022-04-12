@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,300;1,400&family=Roboto:ital@1&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, Helvetica, Arial;
+    background-color: #e8e8e8;
+}
+
+div:not(.negado), .exclusiveLinks, .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div:not(.negado){
+    max-width: 450px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.container{
+    border: 1px solid #222327;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+h1{
+    font-size: 42px;
+    color: #222327;
+    margin: 0;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+ 
+#perfil{
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.main{
+    border-radius: 30px;
+    max-width: 380px;
+    max-height: 490px;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.main .mainLI{
+    list-style: none;
+    margin: 25px;
+    border: 1px solid #222327;
+    border-radius: 12px;
+    padding: 12px;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.main .mainLI:hover{
+    transition: 1s;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+}
+
+#instagram{
+    background-color: #E1306C;
+}
+
+#facebook{
+    background-color: #4267B2;
+}
+
+#youtube{
+    background-color: #FF0000;
+}
+
+#github{
+    background-color: #282828;
+}
+
+#whatsapp{
+    background-color: #25D366;
+}
+
+.mainA{
+    text-decoration: none;
+    color: #fff;
+}
+
+.exclusiveLinks{
+    width: 500px;
+}
+
+.EList{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.ELItens{
+    padding-right: 9px;
+    padding-left: 9px;
+    list-style: none;
+}
+
+.ELItens a{
+    text-decoration: none;
+    color: #222327;
+}
+
+#lastOne{
+    border-left: 1px solid #222327;
+}
